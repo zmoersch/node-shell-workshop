@@ -1,4 +1,5 @@
-module.exports = () => {
-  process.stdout.write(`${process.cwd()}`);
-  process.stdout.write('\nprompt > ');
+module.exports = (done) => {
+  //process.stdout.write(`${process.cwd()}`);
+  //process.stdout.write('\nprompt > ');
+  done(`${process.cwd()}`)
 };
